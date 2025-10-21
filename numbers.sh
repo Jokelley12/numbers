@@ -1,7 +1,7 @@
 #!/bin/bash
 #numbers.sh
-# Joshua Kelley
-read -p "Enter a number: " number
+#Joshua Kelley
+read -r -p "Enter a number: " number
 
 for ((i = 1; i <= number; i++)); do
   if (( i % 2 == 0 )); then
